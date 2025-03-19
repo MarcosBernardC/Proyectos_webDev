@@ -7,7 +7,7 @@ Desarrollar aplicaciones web funcionales y modernas, aplicando buenas prácticas
 
 ## 🏗️ Estructura del Proyecto
 ```
-/Proyecto1  
+/Proyecto1_Portafolio
  ├── /assets  
  │   ├── /code (Archivos de código relevante)  
  │   ├── /images (Imágenes y recursos gráficos)  
