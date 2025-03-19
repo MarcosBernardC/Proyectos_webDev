@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
+.menu-lateral {
+    width: 220px;            /* Ancho del menú */
+    height: 100vh;           /* Ocupa toda la altura */
+    background-color: #1e1e1e;  /* Color de fondo */
+    position: fixed;         /* Se queda fijo al hacer scroll */
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5); /* Sombra sutil */
+}
+
+.menu-lateral a {
+    display: block;          /* Alineamos el icono y el texto en una fila */
+    color: #fff;            /* Texto en blanco */
+    padding: 15px 25px;           /* Espaciado interno */
+    text-decoration: none;   /* Quitamos el subrayado de los enlaces */
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;        /* Suavizamos todas las transiciones */
+    border-left: 3px solid transparent; /* Línea lateral para la selección */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+.menu-lateral a:hover {
+    background-color:#333; /* Oscurecer fondo al pasar el mouse */
+    border-left: 3px solid #00c3ff; /* Efecto de línea azul */
+    font-weight: 600; /* Negrita al pasar el mouse */
+}
+
+.contenido{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-left: 240px; /* Separa el contenido del menú lateral */
+    padding: 20px; /* Agrega espacio interno para mejorar legibilidad */
+    color: #333; /* Color de texto más elegante */
+}
