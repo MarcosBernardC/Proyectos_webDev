@@ -1,13 +1,30 @@
-// Animación de cortinas
-window.onload = function(){
-    document.querySelector(".curtain-left").style.transform = "translateX(-100%)";
-    document.querySelector(".curtain-right").style.transform = "translateX(100%)";
-    setTimeout(() => {
-        document.querySelector(".container").style.opacity = "1";
-    }, 1500);
-};
+// main.js - Configuración inicial del SPA
 
-// Mostrar menú interactivo
-function mostrarMenu(){
-    document.getElementById("menu").style.display = "block";
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const mainContent = document.getElementById("main-content");
+
+    // Definir las rutas de las vistas
+    const routes = {
+        "": "templates/home.html",
+        "proyectos": "templates/proyectos.html",
+        "datasheets": "templates/datasheets.html",
+        "contacto": "./templates/contacto.html"
+    };
+
+    function navigateTo(route) {
+        const url = routes[route] || routes[""];
+        fetch(url)
+            .then(response => response.text())
+            .then(html => {
+                mainContent.innerHTML = html;
+            })
+            .catch(error => console.error("Error cargando la vista", error));
+    }
+
+    window.addEventListener("hashchange", () => {
+        const route = location.hash.replace("#", "");
+        navigateTo(route);
+    });
+
+    navigateTo(location.hash.replace("#", "")); // Cargar la vista inicial
+});

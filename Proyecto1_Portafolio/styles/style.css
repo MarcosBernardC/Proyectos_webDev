@@ -32,10 +32,39 @@
     font-weight: 600; /* Negrita al pasar el mouse */
 }
 
-.contenido{
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6; /* Espaciado entre líneas */
-    margin-left: 240px; /* Separa el contenido del menú lateral */
-    padding: 20px; /* Agrega espacio interno para mejorar legibilidad */
-    color: #333; /* Color de texto más elegante */
+#main-content{
+    padding: 20px;
+    margin-left: 250px;
+    font-family: 'Poppins', sans-serif; /* Fuente moderna */ 
+}
+
+.contacto-imagen {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 25vw;  /* La imagen ocupará el 25% del ancho de la ventana */
+    height: calc(30vw / 1); /* Se mantiene la proporción 2.5:1 */
+    max-width: 500px; /* Tamaño máximo para evitar que sea demasiado grande */
+    min-width: 0px; /* Tamaño mínimo para pantallas pequeñas */
+    
+    object-fit: cover; /* Asegura que la imagen se vea bien */
+
+    /* Difuminado con mask-image */
+    -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+    
+    /* Alternativa con box-shadow */
+    box-shadow: 0px 0px 30px 15px rgba(255, 255, 255, 0.9);
+}
+
+.icon{
+    display: inline-flex; /* Permite mejor control del margen */
+    margin-left: 8px; /* Agrega espacio entre el texto y el icono */
+    vertical-align: middle; /* Asegura alineación con el texto */
+    width: 25px;
+    height: 25px;
+}
+
+ul li{
+    margin-bottom: 11px;
 }
