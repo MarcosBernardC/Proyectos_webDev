@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Definir las rutas de las vistas
     const routes = {
-        "": "templates/home.html",
+        "about_me": "./templates/about_me.html",
+        "habilidades": "./templates/habilidades.html",
         "proyectos": "templates/proyectos.html",
-        "datasheets": "templates/datasheets.html",
         "contacto": "./templates/contacto.html"
     };
 

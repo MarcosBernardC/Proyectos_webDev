@@ -1,3 +1,4 @@
+/* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
@@ -30,12 +31,17 @@
     background-color:#333; /* Oscurecer fondo al pasar el mouse */
     border-left: 3px solid #00c3ff; /* Efecto de línea azul */
     font-weight: 600; /* Negrita al pasar el mouse */
+
+    z-index: 1000;
 }
 
 #main-content{
     padding: 20px;
     margin-left: 250px;
     font-family: 'Poppins', sans-serif; /* Fuente moderna */ 
+
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 .contacto-imagen {
@@ -67,4 +73,146 @@
 
 ul li{
     margin-bottom: 11px;
+}
+
+/* Contenedor principal de habilidades */
+.container_habilidades {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.247);
+}
+
+/* Estilo para los íconos */
+.habilidad-card legend i {
+    font-size: 1.2em;
+    color: #357ABD;
+}
+
+/* Estilo para la lista */
+.habilidad-card ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.legend_habilidades{
+    font-weight: bold;
+    color: #3f6fb6;
+    font-size: 1.2em;
+}
+
+
+.fieldset_habilidades{
+    border: 2px solid #000000a4;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align: left;
+
+    padding: 15px; /* Añadir más espacio interior */
+
+}
+
+/* Estilo para el icono de HTML */
+.icon-html {
+    color: #E34F26; /* Color oficial de HTML5 */
+    font-size: 1.2em; /* Tamaño del icono */
+    margin-left: 10px; /* Espaciado entre el icono y el texto */
+}
+
+/* Estilo para el icono de CSS */
+.icon-css {
+    color: #1572B6; /* Color oficial de CSS3 */
+    font-size: 1.2em; /* Tamaño del icono */
+    margin-left: 10px; /* Espaciado entre el icono y el texto */
+}
+
+/* Estilo para el icono de JS */
+.icon-js {
+    font-size: 1.2em; /* Tamaño del icono */
+    color: #f7df1e; /* Color amarillo de JavaScript */
+    margin-left: 10px; /* Espacio entre el icono y el texto */
+    vertical-align: middle; /* Alineación con el texto */
+}
+
+.icon-mplabx {
+    width: 25px; /* Ajusta el tamaño según sea necesario */
+    height: 25px;
+    vertical-align: middle; /* Alinea el icono con el texto */
+    margin-left: 8px; /* Espacio entre el icono y el texto */
+}
+
+.icon-proteus {
+    width: 30px; /* Ajusta el tamaño según sea necesario */
+    height: 23px;
+    vertical-align: middle; /* Alinea el icono con el texto */
+    margin-left: 8px; /* Espacio entre el icono y el texto */
+}
+
+.icon-python {
+    width: 19px; /* Ajusta el tamaño según sea necesario */
+    height: 19px;
+    margin-left: 10px; /* Espacio entre el ícono y el texto */
+    vertical-align: middle;
+    color: #357ABD;    /* Color azul consistente con el diseño */
+}
+
+.icon-C{
+    width: 25px; /* Ajusta el tamaño según sea necesario */
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.icon-cplusplus{
+    width: px; /* Ajusta el tamaño según sea necesario */
+    height: 25px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.fa-git-alt, .fa-github {
+    font-size: 24px;  /* Tamaño */
+    color: #f14e32;   /* Naranja para Git */
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.fa-github {
+    color: #181717;   /* Negro para GitHub */
+}
+
+.icon-claude{
+    border: 2px solid black; /* Borde negro de 2px */
+    border-radius: 8px; /* Esquinas redondeadas */
+    width: px; /* Ajusta el tamaño según sea necesario */
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.icon-claude {
+    width: auto; /* Ajusta el tamaño según sea necesario */
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.icon-vscode {
+    width: auto; /* Ajusta el tamaño según sea necesario */
+    height: 26px;
+    vertical-align: middle;
+    margin-left: 1px;
+}
+
+/* CSS */
+.parrafo_about_me {
+    background-color: #f1f1f1;  /* Fondo claro */
+    padding: 15px;  /* Espaciado interno */
+    border-radius: 10px;  /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: justify;  /* Justificar el texto */
+    line-height: 1.6;  /* Espacio entre líneas */
 }

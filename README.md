@@ -7,20 +7,29 @@ Desarrollar aplicaciones web funcionales y modernas, aplicando buenas prácticas
 
 ## 🏗️ Estructura del Proyecto
 ```
-/Proyecto1_Portafolio
- ├── /assets  
- │   ├── /code (Archivos de código relevante)  
- │   ├── /images (Imágenes y recursos gráficos)  
- │   ├── /scripts (JS para interactividad)  
- │   │      ├── main.js  
- ├── /styles  
- │   ├── style.css  
- ├── /templates  
- │   ├── index.html  
- │   ├── proyectos.html  
- │   ├── datasheets.html  
- │   ├── contacto.html  
- ├── README.md  
+C:.
+│   README.md
+│
+└───Proyecto1_Portafolio
+    │   index.html
+    │   README.md
+    │
+    ├───assets
+    │   ├───code
+    │   ├───images
+    │   │       contacto.jpg
+    │   │
+    │   └───scripts
+    │           main.js
+    │
+    ├───styles
+    │       style.css
+    │
+    └───templates
+            about_me.html
+            contacto.html
+            habilidades.html
+            proyectos.html
 ```
 
 ## 📌 Avances
