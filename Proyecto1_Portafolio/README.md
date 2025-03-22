@@ -1,37 +1,63 @@
-# 📌 Avance del Portafolio Web  
+# 📂 Proyecto1_Portafolio
 
-Este documento detalla el progreso en el desarrollo del portafolio web. Se actualizará conforme avancemos con nuevas secciones y mejoras.  
+Este proyecto tiene como objetivo la creación de un portafolio personal web, presentando mi experiencia y habilidades en desarrollo web, incluyendo una galería de proyectos realizados y una página de contacto.
 
----
+## 🎯 Objetivo
 
-## 📂 **Estado General del Proyecto**  
+Desarrollar un portafolio web interactivo, responsivo y fácil de navegar. Mostrar proyectos anteriores, habilidades y ofrecer un medio de contacto.
 
-| Sección         | Estado            | Progreso (%) | Notas |
-|----------------|-------------------|-------------|-------|
-| **📁 Estructura del Proyecto** | ✅ Completo | **100%** | Carpeta y archivos organizados |
-| **🏠 Index y Navegación** | ✅ Funcional | **100%** | SPA con `main.js` funcionando |
-| **📬 Contacto** | ✅ Listo | **100%** | Diseño limpio, enlaces funcionales |
-| **🧑‍💻 Sobre mí** | 🚧 Pendiente | **0%** | Sección no iniciada |
-| **🛠️ Habilidades** | 🔄 En desarrollo | **10%** | Se trabaja en esta sección |
-| **📁 Proyectos** | 🚧 Pendiente | **0%** | Faltan estructura y contenido |
-| **📹 Tutoriales** | 🚧 Pendiente | **0%** | Sección aún no iniciada |
-| **🎨 Estilos y Optimización** | 🔄 Parcial | **50%** | Mejorar responsividad y efectos |
-| **🚀 Publicación en Hosting** | 🚧 Pendiente | **0%** | Se evaluará GitHub Pages o Netlify |
+## 🏗️ Estructura del Proyecto
+    Proyecto1_Portafolio
+    ├── index.html
+    ├── README.md
+    ├── assets/
+    │   ├── code/
+    │   └── scripts/
+    │       └── main.js
+    ├── styles/
+    │   └── style.css
+    └── templates/
+        ├── about_me.html
+        ├── contacto.html
+        ├── habilidades.html
+        └── proyectos.html
 
----
+## 📌 Avances
 
-## 🎯 **Objetivo Actual: Sección de Habilidades**  
+### ✅ Día 1:
+- Creación de la estructura del proyecto y primer diseño con `index.html`.
+- Implementación de los archivos de estilo básico (`style.css`).
 
-Hoy se trabajará en la sección **Habilidades**, la cual incluirá:  
-✔️ **Listado de tecnologías** (HTML, CSS, JavaScript, etc.)  
-✔️ **Gráficos de dominio** (barras de progreso o estrellas)  
-✔️ **Diseño atractivo y responsivo**  
+### ✅ Día 2:
+- Desarrollo de la sección "Sobre mí" (`about_me.html`).
+- Agregado contenido personal y profesional.
 
-📌 **Siguientes pasos:**  
-- Implementar la estructura HTML de la sección  
-- Agregar estilos en `style.css` para visualización clara  
-- Integrar animaciones o efectos visuales  
+### ✅ Día 3:
+- Desarrollo de la sección "Habilidades" (`habilidades.html`).
+- Adición de habilidades técnicas y blandas.
 
----
+### ✅ Día 4:
+- Creación de la sección "Proyectos" (`proyectos.html`).
+- Agregado de galería de proyectos y enlaces.
 
-📅 **Última actualización:** _(coloca aquí la fecha)_
+### ✅ Día 5:
+- Implementación de la sección de "Contacto" (`contacto.html`).
+- Formulario de contacto con validaciones básicas.
+
+### ⏳ Próximos pasos:
+- Implementación de un **SPA (Single Page Application)**.
+- Optimización con **Tailwind CSS**.
+- Versión móvil optimizada.
+
+## 🚀 Tecnologías en Uso
+
+- **HTML5**: Estructura y contenido del portafolio.
+- **CSS3**: Estilos y diseño responsivo.
+- **JavaScript**: Funcionalidad interactiva.
+- **Tailwind CSS** (planeado): Framework para diseño eficiente.
+- **SPA** (planeado): Aplicación de una sola página para navegación más fluida.
+
+## 📌 Notas
+
+Este proyecto se encuentra en constante actualización y optimización para mejorar la experiencia del usuario.
+Proyecto1_Portafolio 

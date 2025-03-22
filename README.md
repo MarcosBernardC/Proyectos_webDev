@@ -1,57 +1,34 @@
-# 📂 Proyectos de Desarrollo Web
+# Proyectos de Desarrollo Web
 
-Este repositorio está destinado a la creación de proyectos reales relacionados con desarrollo web, incluyendo el portafolio personal, una web demo para Fiverr y otros proyectos futuros.
+Este repositorio contiene proyectos relacionados con el desarrollo web utilizando las últimas tecnologías. El objetivo es crear aplicaciones funcionales y modernas, implementando buenas prácticas y diseño responsivo.
 
-## 🎯 Objetivo
-Desarrollar aplicaciones web funcionales y modernas, aplicando buenas prácticas de desarrollo, diseño responsive y tecnologías actuales.
+## Estructura del Proyecto
 
-## 🏗️ Estructura del Proyecto
-```
-C:.
-│   README.md
-│
-└───Proyecto1_Portafolio
-    │   index.html
-    │   README.md
-    │
-    ├───assets
-    │   ├───code
-    │   ├───images
-    │   │       contacto.jpg
-    │   │
-    │   └───scripts
-    │           main.js
-    │
-    ├───styles
-    │       style.css
-    │
-    └───templates
-            about_me.html
-            contacto.html
-            habilidades.html
-            proyectos.html
-```
+    ├── README.md
+    └── Proyecto1_Portafolio
+        ├── index.html
+        ├── README.md
+        ├── assets/
+        ├── styles/
+        └── templates/
 
-## 📌 Avances
+## Avances
+
 ### ✅ Día 1:
 - Creación del repositorio y estructura inicial de carpetas.
-- Desarrollo del archivo `index.html` con una estructura básica.
-- Implementación de `style.css` para diseño inicial.
+- Desarrollo de `index.html` y diseño básico con `style.css`.
 
 ### ✅ Día 2:
-- Seccionamiento de la web en múltiples páginas (`proyectos.html`, `contacto.html`, `datasheets.html`).
-- Adición de JavaScript básico (`main.js`) para interactividad inicial.
-- Mejoras en la estructura de `style.css`.
+- Sección de la web en múltiples páginas.
+- Implementación de JavaScript básico (`main.js`) y mejoras en `style.css`.
 
 ### ⏳ Próximos pasos:
-- Implementación de un **SPA (Single Page Application)** para mejorar la fluidez de navegación.
-- Optimización de estilos con **Tailwind CSS**.
-- Creación de una versión optimizada para dispositivos móviles.
+- Implementación de un SPA.
+- Optimización con Tailwind CSS.
+- Versión móvil optimizada.
 
-## 🚀 Tecnologías en Uso
-- **HTML5, CSS3 (Tailwind CSS en futuro), JavaScript**
-- **Posible uso de React o Vue** en versiones futuras.
+## Tecnologías
 
-## 📌 Notas
-Este proyecto se actualiza en un horario de **13:30 a 17:30 horas**, asegurando avances constantes en el desarrollo.
+- HTML5, CSS3, JavaScript.
+- React o Vue (en futuras versiones).
 
